@@ -7,7 +7,7 @@ import hashlib
 
 app = Flask(__name__)
 
-SECRET = 'ur_secretr_key'
+SECRET = 'ur_secret_key'
 
 @app.route('/github-to-server', methods=['POST'])
 def webhook():
